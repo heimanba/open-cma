@@ -1,0 +1,12 @@
+# Core infrastructure — requires maintainer review
+/.github/                          @anthropic-labs/opencma-maintainers
+/scripts/                          @anthropic-labs/opencma-maintainers
+
+# Provider contracts — changes here affect all providers
+/src/providers/interface.ts        @anthropic-labs/opencma-maintainers
+/src/providers/capabilities.ts     @anthropic-labs/opencma-maintainers
+/src/providers/registry.ts         @anthropic-labs/opencma-maintainers
+/src/providers/base-client.ts      @anthropic-labs/opencma-maintainers
+
+# Core type definitions
+/src/types/                        @anthropic-labs/opencma-maintainers
